@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ポケモン図鑑</title>
+<link th:href="@{/css/pokemon.css}" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <form method="get" th:action="@{/pokemonList}">
+        <input type="text" placeholder="なまえ や ばんごう でけんさく">
+        <input type="submit" value="けんさく">
+    </form>
+</body>
+
+
+</html>
